@@ -110,7 +110,6 @@ button {
 .memeDiv {
   position: relative;
   width: 820px;
-  height: 350px;
   border-radius: 5px;
   margin: 70px auto 30px auto;
 }
@@ -118,7 +117,7 @@ button {
 .top {
   position: absolute;
   width: 100%;
-  top: 0px;
+  top: 20px;
   height: 39px;
   font-family: Impact;
   font-style: normal;
@@ -130,6 +129,7 @@ button {
   justify-content: center;
   z-index: 10;
   text-shadow: 1px 3px #000000;
+  text-transform: uppercase;
 }
 
 .memeImage {
@@ -141,7 +141,7 @@ button {
 .bottom {
   position: absolute;
   width: 100%;
-  bottom: 0px;
+  bottom: 20px;
   height: 39px;
   font-family: Impact;
   font-style: normal;
@@ -153,6 +153,7 @@ button {
   justify-content: center;
   z-index: 10;
   text-shadow: 1px 3px #000000;
+  text-transform: uppercase;
 }
 
 
