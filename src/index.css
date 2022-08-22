@@ -27,8 +27,6 @@ nav {
 }
 
 h1 {
-  /* width: 140.79px; */
-  /* height: 24px; */
   font-family: karla, sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -38,8 +36,6 @@ h1 {
 }
 
 h3 {
-  /* width: 189px; */
-  /* height: 14px; */
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -52,7 +48,6 @@ h3 {
 main {
   width: 100%;
   box-sizing: border-box;
-  /* background-color: #E5E5E5; */
 }
 
 #formContainer{
@@ -64,7 +59,6 @@ main {
       'foot foot foot foot';
   gap: 20px; 
   justify-content: center;
-  /* width: 100%; */
 }
 
 #topInput {
@@ -116,7 +110,6 @@ button {
   position: relative;
   width: 820px;
   height: 350px;
-  background: black;
   border-radius: 5px;
   margin: 70px auto 30px auto;
 }
@@ -128,7 +121,7 @@ button {
   height: 39px;
   font-family: Impact;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 32px;
   line-height: 39px;
   color: #FFFFFF;
@@ -151,7 +144,7 @@ button {
   height: 39px;
   font-family: Impact;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 32px;
   line-height: 39px;
   color: #FFFFFF;
@@ -161,3 +154,136 @@ button {
   text-shadow: 4px 4px #000000;
 }
 
+
+
+@media only screen and (max-width: 880px) {
+
+  #formContainer {
+    gap: 20px;
+  }
+
+  #topInput {
+    width: 300px;
+  }
+
+  #bottomInput {
+    width: 300px;
+  }
+
+  button {
+    width: 620px;
+  }
+
+  .memeDiv {
+    width: 620px;
+  }
+
+  .memeImage {
+    width: 620px;
+  }
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+  #formContainer {
+    gap: 20px;
+  }
+
+  #topInput {
+    width: 230px;
+  }
+
+  #bottomInput {
+    width: 230px;
+  }
+
+  button {
+    width: 480px;
+  }
+
+  .memeDiv {
+    width: 480px;
+  }
+
+  .memeImage {
+    width: 480px;
+  }
+}
+
+
+
+@media only screen and (max-width: 515px) {
+
+  nav {
+    flex-direction: column;
+    padding: 5px 20px;
+    align-items: start;
+  }
+
+  #navDiv {
+    gap: 9px;
+  }
+
+  #navDiv img {
+    height: 35px;
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    position: relative;
+    left: 70px;
+    font-size: 13.5px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #formContainer{
+    grid-template-areas: 
+        'main main main main'
+        'right right right right'
+        'foot foot foot foot';
+    gap: 20px; 
+  }
+
+  #topInput {
+    width: 90vw;
+  }
+
+  #bottomInput {
+    width: 90vw;
+  }
+
+  button {
+    width: 90vw;
+    font-size: 1.2em;
+    line-height: 19px;
+  }
+
+  .memeDiv {
+    width: 90vw;
+  }
+
+  .top {
+    top: 5px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #000000;
+  }
+   
+  .memeImage {
+    width: 90vw;
+  }
+
+  .bottom {
+    bottom: 5px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px #000000;
+  }
+}
