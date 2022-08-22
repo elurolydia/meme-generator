@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Form from "./components/Form"
+import Form from "./components/Form";
+import MemeImage from "./components/MemeImage";
 
 function App() {
 
   return (
     <div>
       <Navbar />
-      <Form />
+      <main>
+        <Form />
+        <MemeImage />
+      </main>
     </div>
   )
 }
