@@ -71,8 +71,8 @@ main {
   font-family: Karla;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 20px;
+  line-height: 20px;
   color: #0D0D0D;
   padding-left: 15px;
 }
@@ -86,8 +86,8 @@ main {
   font-family: Karla;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 20px;
+  line-height: 20px;
   color: #0D0D0D;
   padding-left: 15px;
 }
@@ -104,7 +104,8 @@ button {
   font-size: 22px;
   line-height: 19px;
   letter-spacing: -0.1em;
-  color: #FFFFFF
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .memeDiv {
@@ -128,7 +129,15 @@ button {
   display: flex;
   justify-content: center;
   z-index: 10;
-  text-shadow: 1px 3px #000000;
+  text-shadow:2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
   text-transform: uppercase;
 }
 
@@ -152,7 +161,16 @@ button {
   display: flex;
   justify-content: center;
   z-index: 10;
-  text-shadow: 1px 3px #000000;
+  text-shadow:2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;; */
   text-transform: uppercase;
 }
 
@@ -245,6 +263,16 @@ button {
 
   main {
     width: 100%;
+  }
+
+  #topInput {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  #bottomInput {
+    font-size: 15px;
+    line-height: 15px;
   }
 
   #formContainer{
